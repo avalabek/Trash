@@ -7,15 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/avalabek/itstheblueone.git"
-  },
+  "repository": "git+https://github.com/avalabek/itstheblueone.git",
   "keywords": [],
-  "author": "",
+  "author": "Andreya <avalabek@yahoo.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/avalabek/itstheblueone/issues"
   },
-  "homepage": "https://github.com/avalabek/itstheblueone#readme"
+  "homepage": "https://github.com/avalabek/itstheblueone#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  }
 }
